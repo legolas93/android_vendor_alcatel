@@ -15,13 +15,13 @@
 # Audio
 PRODUCT_COPY_FILES += \
     	vendor/alcatel/bcm21553-common/proprietary/system/etc/asound.conf:system/etc/asound.conf \
-#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
-#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
-#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudio.so:system/lib/libaudio.so \
-#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudio.so:obj/lib/libaudio.so \
-#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libmedia.so:system/lib/libmedia.so \
-#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
-#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libdrmagent_jni.so:system/lib/libdrmagent_jni.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudio.so:system/lib/libaudio.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudio.so:obj/lib/libaudio.so \
+   	vendor/alcatel/bcm21553-common/proprietary/system/lib/libmedia.so:system/lib/libmedia.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/libdrmagent_jni.so:system/lib/libdrmagent_jni.so \
 	vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
     	vendor/alcatel/bcm21553-common/proprietary/system/lib/liba2dp.so:system/lib/liba2dp.so \
     	vendor/alcatel/bcm21553-common/proprietary/system/bin/mediaserver:system/bin/mediaserver \
