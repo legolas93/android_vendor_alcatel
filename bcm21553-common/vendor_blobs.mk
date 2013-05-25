@@ -14,25 +14,25 @@
 
 # Audio
 PRODUCT_COPY_FILES += \
-    vendor/alcatel/bcm21553-common/proprietary/system/etc/asound.conf:system/etc/asound.conf \
-#   vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
-#   vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
-#   vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudio.so:system/lib/libaudio.so \
-#   vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudio.so:obj/lib/libaudio.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/etc/asound.conf:system/etc/asound.conf \
+#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
+#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudio.so:system/lib/libaudio.so \
+#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudio.so:obj/lib/libaudio.so \
 #    vendor/alcatel/bcm21553-common/proprietary/system/lib/libmedia.so:system/lib/libmedia.so \
 #    vendor/alcatel/bcm21553-common/proprietary/system/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
 #    vendor/alcatel/bcm21553-common/proprietary/system/lib/libdrmagent_jni.so:system/lib/libdrmagent_jni.so \
-#    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/liba2dp.so:system/lib/liba2dp.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/bin/mediaserver:system/bin/mediaserver \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/libsisodrm.so:system/lib/libsisodrm.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/librs_jni.so:system/lib/librs_jni.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/libRS.so:system/lib/libRS.so
+	vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/liba2dp.so:system/lib/liba2dp.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/bin/mediaserver:system/bin/mediaserver \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/libsisodrm.so:system/lib/libsisodrm.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/librs_jni.so:system/lib/librs_jni.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/libRS.so:system/lib/libRS.so
 #    vendor/alcatel/bcm21553-common/proprietary/system/lib/liblzo.so:system/lib/liblzo.so
 
 # Apns config file
 PRODUCT_COPY_FILES += \
-    vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+    	vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Mediaplayer
 PRODUCT_COPY_FILES += \
@@ -55,14 +55,15 @@ PRODUCT_COPY_FILES += \
 
 # Sensores
 PRODUCT_COPY_FILES += \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/gps.bcm21553.so:system/lib/hw/gps.bcm21553.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/lights.bcm21553.so:system/lib/hw/lights.bcm21553.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/gps.bcm21553.so:system/lib/hw/gps.bcm21553.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/lights.bcm21553.so:system/lib/hw/lights.bcm21553.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
 #    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaccsensorcal.so:system/lib/libaccsensorcal.so \
 #    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaccsensorcaltest.so:system/lib/libaccsensorcaltest.so
 #    vendor/alcatel/bcm21553-common/proprietary/system/lib/libaccelcal.so:system/lib/libaccelcal.so \
