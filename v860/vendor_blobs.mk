@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/v860/proprietary/system/lib/libcamera.so:system/lib/libcamera.so \
     vendor/alcatel/v860/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/alcatel/v860/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/alcatel/v860/proprietary/system/lib/libexif.so:system/lib/libexif.so \
 
 
 $(call inherit-product, vendor/alcatel/bcm21553-common/vendor.mk)
