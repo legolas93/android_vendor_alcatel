@@ -14,18 +14,18 @@
 
 # Audio
 PRODUCT_COPY_FILES += \
-	vendor/samsung/bcm21553-common/proprietary/system/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
-    	vendor/samsung/bcm21553-common/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
-   	vendor/samsung/bcm21553-common/proprietary/system/lib/libaudio.so:system/lib/libaudio.so \
+	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
+    	vendor/alcatel/bcm21553-common/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
+   	vendor/alcatel/bcm21553-common/proprietary/system/lib/libaudio.so:system/lib/libaudio.so \
 
 # GPS
 PRODUCT_COPY_FILES += \
     	vendor/alcatel/bcm21553-common/proprietary/system/lib/libsoc.so:system/lib/libsoc.so \
     	vendor/alcatel/bcm21553-common/proprietary/system/bin/glgps:system/bin/glgps \
     	vendor/alcatel/bcm21553-common/proprietary/system/bin/gps.cer:system/bin/gps.cer \
-    	vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
-    	vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
-    	vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
+    	vendor/alcatel/bcm21553-common/proprietary/system/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
+    	vendor/alcatel/bcm21553-common/proprietary/system/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
+    	vendor/alcatel/bcm21553-common/proprietary/system/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
 
 # Apns config file
 PRODUCT_COPY_FILES += \
